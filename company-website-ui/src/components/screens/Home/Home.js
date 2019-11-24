@@ -3,7 +3,7 @@ import { Grid } from '@material-ui/core';
 import { Container } from '@material-ui/core';
 import RadioGroup from '../../common/RadioGroup/RadioGroup';
 import Selects from '../../common/Selects/Selects';
-const DrawAMap = () => {
+const Home = () => {
   useEffect(() => {}, []);
   return (
     <Container style={{ paddingTop: 50 }}>
@@ -18,4 +18,4 @@ const DrawAMap = () => {
   );
 };
 
-export default DrawAMap;
+export default Home;
