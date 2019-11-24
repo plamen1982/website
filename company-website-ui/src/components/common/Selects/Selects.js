@@ -61,7 +61,7 @@ export default function CustomizedSelects() {
         <BootstrapInput id="demo-customized-textbox" />
       </FormControl>
       <FormControl className={classes.margin}>
-        <InputLabel id="demo-customized-select-label">Age</InputLabel>
+        <InputLabel id="demo-customized-select-label">Age.</InputLabel>
         <Select
           labelId="demo-customized-select-label"
           id="demo-customized-select"
