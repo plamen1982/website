@@ -1,0 +1,25 @@
+{
+  "name": "company-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server -p 4000 --watch data.json -m ./node_modules/json-server-auth"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plamen1982/company-website.git"
+  },
+  "author": "paxi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/plamen1982/company-website/issues"
+  },
+  "homepage": "https://github.com/plamen1982/company-website#readme",
+  "dependencies": {
+    "json-server": "^0.15.1"
+  },
+  "devDependencies": {
+    "json-server-auth": "^1.2.1"
+  }
+}
