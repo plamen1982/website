@@ -7,15 +7,18 @@ import {
   // Link
 } from 'react-router-dom';
 import Home from './components/screens/Home/Home';
+import Login from './components/screens/Login/Login';
+import Register from './components/screens/Register/Register';
 import AppNavigationBar from './components/AppNavigationBar/AppNavigationBar';
 import BottomNavigationBar from './components/BottomNavigationBar/BottomNavigationBar';
-
 const App = () => {
   return (
     <Router>
       <AppNavigationBar />
       <Switch>
         <Route exact path="/home" component={Home} />
+        <Route exact path="/login" component={Login} />
+        <Route exact path="/register" component={Register} />
         <Route exact path="/" render={() => <Redirect to="/home" />} />
         <Route component={Home} />
       </Switch>
