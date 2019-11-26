@@ -24,6 +24,7 @@ export default function SimpleBottomNavigation() {
       }}
       showLabels
       className={classes.root}
+      style={{ marginTop: 20 }}
     >
       <BottomNavigationAction label="Recents" icon={<RestoreIcon />} />
       <BottomNavigationAction label="Favorites" icon={<FavoriteIcon />} />

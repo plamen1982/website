@@ -9,8 +9,8 @@ import {
 import Home from './components/screens/Home/Home';
 import Login from './components/screens/Login/Login';
 import Register from './components/screens/Register/Register';
-import AppNavigationBar from './components/AppNavigationBar/AppNavigationBar';
-import BottomNavigationBar from './components/BottomNavigationBar/BottomNavigationBar';
+import AppNavigationBar from './components/molecules/AppNavigationBar/AppNavigationBar';
+import BottomNavigationBar from './components/molecules/BottomNavigationBar/BottomNavigationBar';
 const App = () => {
   return (
     <Router>
