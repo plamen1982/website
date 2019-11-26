@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { makeStyles, useTheme } from '@material-ui/core/styles';
+import { makeStyles } from '@material-ui/core/styles';
 import { Grid, Typography } from '@material-ui/core';
 import { Container } from '@material-ui/core';
 
