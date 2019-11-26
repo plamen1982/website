@@ -17,6 +17,19 @@
     "eject": "react-scripts eject",
     "lint": "eslint src"
   },
+  "husky": {
+    "hooks": {
+      "pre-push": "cross-env CI=true lint-staged"
+    }
+  },
+  "lint-staged": {
+    "src/**/*.js": [
+      "prettier --write",
+      "eslint --max-warnings=0",
+      "yarn test --bail --findRelatedTests",
+      "git add"
+    ]
+  },
   "eslintConfig": {
     "extends": "react-app"
   },
@@ -31,5 +44,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "cross-env": "^6.0.2",
+    "husky": "^3.1.0",
+    "lint-staged": "^9.4.1"
   }
 }
