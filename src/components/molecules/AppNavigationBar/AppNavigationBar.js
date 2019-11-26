@@ -49,13 +49,13 @@ export default function ButtonAppBar() {
           <Typography>
             <NavLink
               to="/login"
+              className={classes.primary}
               style={{
                 textDecoration: 'none',
                 padding: 15,
                 borderRadius: 5,
                 backgroundColor: 'grey',
-                marginRight: 5,
-                color: 'white'
+                marginRight: 5
               }}
             >
               Login
@@ -64,13 +64,13 @@ export default function ButtonAppBar() {
           <Typography>
             <NavLink
               to="/register"
+              className={classes.primary}
               style={{
                 textDecoration: 'none',
                 padding: 15,
                 borderRadius: 5,
                 backgroundColor: 'grey',
-                marginRight: 5,
-                color: 'white'
+                marginRight: 5
               }}
             >
               Register
