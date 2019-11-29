@@ -14,6 +14,7 @@ import Login from './components/screens/Login/Login';
 import Register from './components/screens/Register/Register';
 import AppNavigationBar from './components/molecules/AppNavigationBar/AppNavigationBar';
 import BottomNavigationBar from './components/molecules/BottomNavigationBar/BottomNavigationBar';
+import Projects from './components/molecules/Projects/Projects';
 const App = () => {
   return (
     <ThemeProvider theme={theme}>
