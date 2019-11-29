@@ -48,9 +48,9 @@ class Projects extends Component {
                             <Typography m={4} style={{ paddingTop: '60px', paddingBottom: '50px', color: '#333' }} component="h3" variant="h3" align="center" color="primary" gutterBottom>
                                 Latest Projects
                             </Typography>
-                        <Grid container spacing={24} style={{ padding: 24 }}>
+                        <Grid container style={{ padding: '20px' }}>
                             {this.state.websites.map(website => (
-                                <Grid item xs={12} sm={6} lg={4} xl={3}>
+                                <Grid key = {website.sys.id} item xs={12} sm={6} lg={4} xl={3}>
                                     <Project website={website} />
                                 </Grid>
                             ))}

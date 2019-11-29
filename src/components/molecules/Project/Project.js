@@ -9,7 +9,6 @@ import Typography from '@material-ui/core/Typography'
 const Project = (props) => {
     const website = props.website.fields;
     const {title, imageUrl, description, url} = website;
-    console.log(website);
     
     return(
         <div>
@@ -20,7 +19,7 @@ const Project = (props) => {
                     title={title}
                     />
                     <CardContent>
-                    <Typography gutterBottom variant="headline" component="h2">
+                    <Typography gutterBottom component="h2">
                         {title}
                     </Typography>
                     <Typography component="p">
