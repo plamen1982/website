@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import Grid from '@material-ui/core/Grid';
-import TextField from '@material-ui/core/TextField';
 import Typography from '@material-ui/core/Typography';
 import * as contentful from 'contentful'
 import Project from '../Project/Project';

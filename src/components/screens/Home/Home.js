@@ -1,6 +1,6 @@
 import React, { useEffect, Fragment } from 'react';
 import { createMuiTheme, makeStyles, MuiThemeProvider } from '@material-ui/core/styles';
-import { Grid, Typography, Card } from '@material-ui/core';
+import { Grid, Typography} from '@material-ui/core';
 import { Button } from "@material-ui/core";
 import { Container } from '@material-ui/core';
 import Projects from '../../molecules/Projects/Projects';
